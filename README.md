@@ -3,3 +3,4 @@
 - Electron version 12.0.9
 - Typescript
 - Winston logger
+- Hot reload
