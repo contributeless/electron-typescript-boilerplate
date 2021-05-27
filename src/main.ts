@@ -32,3 +32,7 @@ app.on('window-all-closed', function () {
       app.quit()
     }
 })
+
+try {
+  require('electron-reloader')(module);
+} catch {}
